@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "jamm:blocks/magic_furnace"
+  }
+}
