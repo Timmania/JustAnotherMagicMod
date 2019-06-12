@@ -1,6 +1,8 @@
 package com.timmania.jamm;
 
 import com.timmania.jamm.proxy.IProxy;
+import com.timmania.jamm.tabs.JammTab;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -24,6 +26,8 @@ public class Jamm {
     public static final String SERVER = "com.timmania.jamm.proxy.ServerProxy";
     @SidedProxy(clientSide = Jamm.CLIENT, serverSide = Jamm.SERVER, modId = Jamm.MODID)
     public static IProxy proxy;
+
+    public static final CreativeTabs JAMM_TAB = new JammTab();
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event){
