@@ -2,6 +2,7 @@ package com.timmania.jamm;
 
 import com.timmania.jamm.block.BlockMagicFurnace;
 import com.timmania.jamm.init.ModBlocks;
+import com.timmania.jamm.item.ItemMagicAxe;
 import com.timmania.jamm.item.ItemMagicCoal;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -26,6 +27,7 @@ public final class EventSubscriber {
     public static void registerItems(Register<Item> event) {
         final Item[] items = {
                 new ItemMagicCoal().setRegistryName("magic_coal").setUnlocalizedName(Jamm.MODID + "." + "magic_coal"),
+                new ItemMagicAxe().setRegistryName("magic_axe")
         };
 
         final Item[] itemBlocks = {

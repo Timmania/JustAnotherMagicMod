@@ -17,6 +17,11 @@ public class ClientEventSubscriber {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event){
         registerModel(ModItems.MAGIC_COAL);
+        registerModel(ModItems.MAGIC_AXE);
+        registerModel(ModItems.MAGIC_PICKAXE);
+        registerModel(ModItems.MAGIC_HOE);
+        registerModel(ModItems.MAGIC_SHOVEL);
+        registerModel(ModItems.MAGIC_SWORD);
         registerModel(Item.getItemFromBlock(ModBlocks.MAGIC_FURNACE));
     }
 
