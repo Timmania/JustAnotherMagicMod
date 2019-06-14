@@ -1,6 +1,7 @@
 # Items
 item.jamm.magic_coal.name=Magic Coal
 item.jamm.magic_axe.name=Magic Axe
+item.jamm.magic_pickaxe=Magic Pickaxe
 
 # Blocks
 tile.jamm.magic_furnace.name=Magic Furnace
