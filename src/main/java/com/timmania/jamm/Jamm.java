@@ -1,7 +1,10 @@
 package com.timmania.jamm;
 
+import com.timmania.jamm.init.ModGen;
+import com.timmania.jamm.init.ModRecipes;
 import com.timmania.jamm.proxy.IProxy;
 import com.timmania.jamm.tabs.JammTab;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -37,6 +40,8 @@ public class Jamm {
     @EventHandler
     public void init(FMLInitializationEvent event){
         proxy.init(event);
+        ModRecipes.registerRecipes();
+        ModGen.registerWorldGenerators();
     }
 
     @EventHandler

@@ -5,8 +5,11 @@ import net.minecraft.item.ItemSpade;
 
 public class ItemMagicShovel extends ItemSpade {
 
-    public ItemMagicShovel(ToolMaterial material){
+    public ItemMagicShovel(ToolMaterial material, String name){
         super(material);
-        setCreativeTab(Jamm.JAMM_TAB);
+
+        this.setUnlocalizedName(Jamm.MODID + "." + name);
+        this.setRegistryName(name);
+        this.setCreativeTab(Jamm.JAMM_TAB);
     }
 }

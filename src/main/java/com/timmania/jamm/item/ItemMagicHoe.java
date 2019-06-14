@@ -5,8 +5,11 @@ import net.minecraft.item.ItemHoe;
 
 public class ItemMagicHoe extends ItemHoe {
 
-    public ItemMagicHoe(ToolMaterial material){
+    public ItemMagicHoe(ToolMaterial material, String name){
         super(material);
-        setCreativeTab(Jamm.JAMM_TAB);
+
+        this.setUnlocalizedName(Jamm.MODID + "." + name);
+        this.setRegistryName(name);
+        this.setCreativeTab(Jamm.JAMM_TAB);
     }
 }

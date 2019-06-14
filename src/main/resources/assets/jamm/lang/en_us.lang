@@ -1,10 +1,19 @@
 # Items
 item.jamm.magic_coal.name=Magic Coal
+item.jamm.magic_reagent.name=Magic Reagent
+item.jamm.magic_iron.name=Magic Iron
 item.jamm.magic_axe.name=Magic Axe
 item.jamm.magic_pickaxe=Magic Pickaxe
+item.jamm.magic_sword=Magic Sword
+item.jamm.magic_hoe=Magic Hoe
+item.jamm.magic_shovel=Magic Shovel
+item.jamm.magic_helmet=Magic Helmet
+item.jamm.magic_chestplate=Magic Chestplate
+item.jamm.magic_leggings=Magic Pantaloons
+item.jamm.magic_boots=Magic Shoes
 
 # Blocks
 tile.jamm.magic_furnace.name=Magic Furnace
 
 # Itemgroup
-itemGroup.jamm=Just Another Magic ModS
+itemGroup.jamm=Just Another Magic Mod

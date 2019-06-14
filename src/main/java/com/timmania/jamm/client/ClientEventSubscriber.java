@@ -17,11 +17,16 @@ public class ClientEventSubscriber {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event){
         registerModel(ModItems.MAGIC_COAL);
+        registerModel(ModItems.MAGIC_REAGENT);
         registerModel(ModItems.MAGIC_AXE);
         registerModel(ModItems.MAGIC_PICKAXE);
         registerModel(ModItems.MAGIC_HOE);
         registerModel(ModItems.MAGIC_SHOVEL);
         registerModel(ModItems.MAGIC_SWORD);
+        registerModel(ModItems.MAGIC_HELMET);
+        registerModel(ModItems.MAGIC_CHESTPLATE);
+        registerModel(ModItems.MAGIC_LEGGINGS);
+        registerModel(ModItems.MAGIC_BOOTS);
         registerModel(Item.getItemFromBlock(ModBlocks.MAGIC_FURNACE));
     }
 
