@@ -1,6 +1,8 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/orientable",
   "textures": {
-    "all": "jamm:blocks/magic_furnace"
+    "top": "jamm:blocks/magic_furnace_top",
+    "front": "jamm:blocks/magic_furnace_front_off",
+    "side": "jamm:blocks/magic_furnace_side"
   }
 }

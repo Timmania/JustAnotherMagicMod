@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "XO",
+    "OX"
+
+  ],
+  "key": {
+    "X": [
+      {
+        "item": "minecraft:coal",
+        "data": 0
+      },
+      {
+        "item": "minecraft:coal",
+        "data": 1
+      }
+    ],
+    "O": {
+      "type": "jamm:magic_reagent"
+    }
+  },
+  "result": {
+    "item": "jamm:magic_coal",
+    "count": 4
+  }
+}

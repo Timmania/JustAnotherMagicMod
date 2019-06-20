@@ -6,12 +6,15 @@ import net.minecraft.item.ItemAxe;
 
 public class ItemMagicAxe extends ItemAxe {
 
-    public ItemMagicAxe(ToolMaterial material, float damage, float speed){
+    public ItemMagicAxe(ToolMaterial material, float damage, float speed, String name){
         super(material, damage, speed);
-        setCreativeTab(Jamm.JAMM_TAB);
+
+        this.setUnlocalizedName(Jamm.MODID + "." + name);
+        this.setRegistryName(name);
+        this.setCreativeTab(Jamm.JAMM_TAB);
     }
 
-    public ItemMagicAxe(ToolMaterial material, String unlocalizedName, String registryName) {
-        this(material, 8.0F, -3.1F);
+    public ItemMagicAxe(ToolMaterial material, String name) {
+        this(material, 8.0F, -3.1F, name);
     }
 }
